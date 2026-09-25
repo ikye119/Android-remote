@@ -1,0 +1,2 @@
+dev.example.myandroidremote:xml/control_service = 0x7f020000
+dev.example.myandroidremote:string/control_description = 0x7f010000

@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "dev.example.myandroidremote.app-debug-4:/xml_control_service.xml.flat",
+        "source": "dev.example.myandroidremote.app-main-6:/xml/control_service.xml"
+    }
+]

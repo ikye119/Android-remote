@@ -1,0 +1,4 @@
+#Fri Sep 25 09:53:31 WAT 2026
+base.0=/home/ikenna/Downloads/remote-android/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

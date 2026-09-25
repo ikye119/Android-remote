@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "dev.example.myandroidremote.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/ikenna/Downloads/remote-android/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "159",
+                        "endOffsets": "159"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "152",
+                        "endOffsets": "203"
+                    }
+                }
+            ]
+        }
+    ]
+}

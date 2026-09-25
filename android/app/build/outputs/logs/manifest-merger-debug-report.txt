@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:1:1-23:12
+	package
+		INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:2:5-67
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:2:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:3:5-77
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:3:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:4:5-87
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:4:22-84
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:5:5-94
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:5:22-91
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:6:22-74
+application
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:5-22:19
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:5-22:19
+	android:extractNativeLibs
+		INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:18-51
+	android:allowBackup
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:8:45-72
+	android:theme
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:52-115
+	android:usesCleartextTraffic
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:8:9-44
+activity#dev.example.myandroidremote.MainActivity
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:9:9-14:20
+	android:exported
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:9:48-71
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:9:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:10:13-13:29
+action#android.intent.action.MAIN
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:11:17-69
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:12:17-77
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:12:27-74
+service#dev.example.myandroidremote.RemoteSessionService
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:15:9-16:72
+	android:exported
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:15:55-79
+	android:foregroundServiceType
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:16:13-69
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:15:18-54
+service#dev.example.myandroidremote.RemoteControlService
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:17:9-21:19
+	android:exported
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:17:55-78
+	android:permission
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:18:13-79
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:17:18-54
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:19:13-119
+action#android.accessibilityservice.AccessibilityService
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:19:28-103
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:19:36-100
+meta-data#android.accessibilityservice
+ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:20:13-110
+	android:resource
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:20:68-107
+	android:name
+		ADDED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:20:24-67
+uses-sdk
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml

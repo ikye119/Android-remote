@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.example.myandroidremote"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:3:5-77
+12-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:3:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+13-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:4:5-87
+13-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:4:22-84
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+14-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:5:5-94
+14-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:5:22-91
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:6:5-77
+15-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:6:22-74
+16
+17    <application
+17-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:5-22:19
+18        android:allowBackup="false"
+18-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:8:45-72
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:label="My Android Remote"
+21-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:18-51
+22        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+22-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:7:52-115
+23        android:usesCleartextTraffic="true" >
+23-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:8:9-44
+24        <activity
+24-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:9:9-14:20
+25            android:name="dev.example.myandroidremote.MainActivity"
+25-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:9:19-47
+26            android:exported="true" >
+26-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:9:48-71
+27            <intent-filter>
+27-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:10:13-13:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:11:17-69
+28-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:11:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:12:17-77
+30-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:12:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:15:9-16:72
+35            android:name="dev.example.myandroidremote.RemoteSessionService"
+35-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:15:18-54
+36            android:exported="false"
+36-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:15:55-79
+37            android:foregroundServiceType="dataSync|mediaProjection" />
+37-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:16:13-69
+38        <service
+38-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:17:9-21:19
+39            android:name="dev.example.myandroidremote.RemoteControlService"
+39-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:17:18-54
+40            android:exported="true"
+40-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:17:55-78
+41            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+41-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:18:13-79
+42            <intent-filter>
+42-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:19:13-119
+43                <action android:name="android.accessibilityservice.AccessibilityService" />
+43-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:19:28-103
+43-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:19:36-100
+44            </intent-filter>
+45
+46            <meta-data
+46-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:20:13-110
+47                android:name="android.accessibilityservice"
+47-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:20:24-67
+48                android:resource="@xml/control_service" />
+48-->/home/ikenna/Downloads/remote-android/android/app/src/main/AndroidManifest.xml:20:68-107
+49        </service>
+50    </application>
+51
+52</manifest>

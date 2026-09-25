@@ -1,0 +1,2 @@
+int string control_description 0x7f010000
+int xml control_service 0x7f020000
